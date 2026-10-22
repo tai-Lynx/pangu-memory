@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# memory databases are personal data -- never commit them
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.db
+
+.pytest_cache/
+.DS_Store
